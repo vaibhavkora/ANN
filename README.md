@@ -7,20 +7,20 @@ This project builds an Artificial Neural Network (ANN) to predict customer churn
 ## 📊Dataset
 The "Churn_Modelling.csv" dataset includes 10,000 customer records with features like:
 
-RowNumber: Record number 🔢
-CustomerId: Unique ID 🆔
-Surname: Last name ✍️
-CreditScore: Credit score 📈
-Geography: Country (France, Spain, Germany) 🌍
-Gender: Male/Female 🚻
-Age: Customer age 🎂
-Tenure: Years with bank ⏳
-Balance: Account balance 💰
-NumOfProducts: Bank products used 🏦
-HasCrCard: Credit card status (1=Yes, 0=No) 💳
-IsActiveMember: Active member status (1=Yes, 0=No) ✅
-EstimatedSalary: Annual salary estimate 💸
-Exited: Churn status (1=Churned, 0=Retained) 🚪
+**RowNumber**: Record number 🔢
+**CustomerId**: Unique ID 🆔
+**Surname**: Last name ✍️
+**CreditScore**: Credit score 📈
+**Geography**: Country (France, Spain, Germany) 🌍
+**Gender**: Male/Female 🚻
+**Age**: Customer age 🎂
+**Tenure**: Years with bank ⏳
+**Balance**: Account balance 💰
+**NumOfProducts**: Bank products used 🏦
+**HasCrCard**: Credit card status (1=Yes, 0=No) 💳
+**IsActiveMember**: Active member status (1=Yes, 0=No) ✅
+**EstimatedSalary**: Annual salary estimate 💸
+**Exited**: Churn status (1=Churned, 0=Retained) 🚪
 
 ## 🛠️Project Structure 
 The notebook is organized into clear steps:
