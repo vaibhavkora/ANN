@@ -21,8 +21,6 @@ The `Churn_Modelling.csv` dataset includes 10,000 customer records with the foll
 - `EstimatedSalary`: Annual salary estimate 💸
 - `Exited`: Churn status (`1=Churned`, `0=Retained`) 🚪
 
-Stored in Google Drive (`/content/drive/MyDrive/Datasets/Churn_Modelling.csv`) for Colab access. 📂
-
 ## 🛠️ Project Structure
 The notebook (`ANN.ipynb`) is organized into clear steps:
 
@@ -61,11 +59,6 @@ The notebook (`ANN.ipynb`) is organized into clear steps:
 - Seaborn 🎨
 - Scikit-learn 📏
 
-## ⚙️ Installation
-```bash
-git clone https://github.com/vaibhavkora/Artificial_Neural_Network.git
-pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
- ```
 ## 🚀 Usage
 - **Run the Notebook**: Execute cells in order ▶️  
 - **Explore Data**: Check dataset structure with `df.head()` and `X.head()` 👀  
