@@ -1,10 +1,10 @@
 # Customer Churn Prediction Using Artificial Neural Network (ANN) 🚀
 
-##🌟Overview
+## 🌟Overview
 
 This project builds an Artificial Neural Network (ANN) to predict customer churn for a bank using the "Churn_Modelling.csv" dataset. It classifies whether a customer will leave (Exited=1) or stay (Exited=0) based on demographic and financial features. Developed in a Jupyter Notebook (ANN.ipynb) using TensorFlow and Python libraries, it’s perfect for machine learning enthusiasts and data scientists exploring binary classification! 🧠💻
 
-##📊Dataset
+## 📊Dataset
 The "Churn_Modelling.csv" dataset includes 10,000 customer records with features like:
 
 RowNumber: Record number 🔢
@@ -22,7 +22,7 @@ IsActiveMember: Active member status (1=Yes, 0=No) ✅
 EstimatedSalary: Annual salary estimate 💸
 Exited: Churn status (1=Churned, 0=Retained) 🚪
 
-##🛠️Project Structure 
+## 🛠️Project Structure 
 The notebook is organized into clear steps:
 
 Library Imports 📚:
