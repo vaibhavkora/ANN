@@ -46,6 +46,6 @@ The notebook is organized into clear steps:
      - False Negatives: 209 ❌
      - True Positives: 196 ✅
      - Calculates accuracy: 85.55% 🎯
-     - Retrieves model weights for analysis 🧮
+     - Retrieves model weights for analysis 🧮 
 
     
