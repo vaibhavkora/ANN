@@ -25,27 +25,27 @@ Exited: Churn status (1=Churned, 0=Retained) 🚪
 ## 🛠️Project Structure 
 The notebook is organized into clear steps:
 
-**Library Imports 📚:**
-  - TensorFlow for ANN 🧠
-  - Pandas, NumPy, Matplotlib, Seaborn for data and visualization 📊
-  - Scikit-learn for metrics 📏
-**TensorFlow Version Check ✅:**
-  - Confirms TensorFlow 2.18.0 for compatibility.
-**Data Loading & Exploration 🔍:**
-  - Loads dataset with pd.read_csv() 📖
-  - Displays first 5 rows with df.head() 👀
-**Feature Selection ⚙️:**
-  - Splits data into features (X: CreditScore to EstimatedSalary) and target (y: Exited).
-  - Shows X.head() for verification.
-**Model Prediction & Evaluation 🏆:**
-  - Uses a pre-trained ANN (classifier) to predict on X_test 🔮
-  - Converts probabilities to binary (y_pred > 0.5) ✔️
-  - Creates confusion matrix: [[1515, 80], [209, 196]] 📉
-  - True Negatives: 1515 ✅
-  - False Positives: 80 ❌
-  - False Negatives: 209 ❌
-  - True Positives: 196 ✅
-  - Calculates accuracy: 85.55% 🎯
-  - Retrieves model weights for analysis 🧮
+1. **Library Imports 📚:**
+       - TensorFlow for ANN 🧠
+       - Pandas, NumPy, Matplotlib, Seaborn for data and visualization 📊
+       - Scikit-learn for metrics 📏
+2. **TensorFlow Version Check ✅:**
+       - Confirms TensorFlow 2.18.0 for compatibility.
+3. **Data Loading & Exploration 🔍:**
+       - Loads dataset with pd.read_csv() 📖
+       - Displays first 5 rows with df.head() 👀
+4. **Feature Selection ⚙️:**
+      - Splits data into features (X: CreditScore to EstimatedSalary) and target (y: Exited).
+      - Shows X.head() for verification.
+5. **Model Prediction & Evaluation 🏆:**
+     - Uses a pre-trained ANN (classifier) to predict on X_test 🔮
+     - Converts probabilities to binary (y_pred > 0.5) ✔️
+     - Creates confusion matrix: [[1515, 80], [209, 196]] 📉
+     - True Negatives: 1515 ✅
+     - False Positives: 80 ❌
+     - False Negatives: 209 ❌
+     - True Positives: 196 ✅
+     - Calculates accuracy: 85.55% 🎯
+     - Retrieves model weights for analysis 🧮
 
     
