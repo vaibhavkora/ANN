@@ -65,3 +65,29 @@ The notebook (`ANN.ipynb`) is organized into clear steps:
 ```bash
 git clone https://github.com/your-username/customer-churn-prediction-ann.git
 pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
+ ```
+## 🚀 Usage
+- **Run the Notebook**: Execute cells in order ▶️  
+- **Explore Data**: Check dataset structure with `df.head()` and `X.head()` 👀  
+- **Evaluate Model**: Review confusion matrix and accuracy score 📊  
+- **Extend**: Add preprocessing, visualizations, or hyperparameter tuning 🔧  
+
+## 🎉 Results
+- **Accuracy**: **85.55%** 🥳  
+- **Confusion Matrix**: Strong non-churn prediction (1515 TN), with room to improve churn detection (196 TP) 📉  
+- **Weights**: Provides insight into ANN’s learned patterns 🧮  
+
+## 🔧 Potential Improvements
+- **Add Model Code**: Include ANN architecture and training steps 🏗️  
+- **Preprocessing**: Encode categorical variables (e.g., Geography, Gender) and scale numerical features 📏  
+- **Tuning**: Experiment with layer sizes, optimizers, or learning rates ⚙️  
+- **Metrics**: Add precision, recall, F1-score, or ROC-AUC 📈  
+- **Visuals**: Plot feature distributions, correlation matrices, or loss curves 🎨  
+- **Cross-Validation**: Implement k-fold cross-validation for robustness 🔄  
+
+## 🌐 Use Cases
+- **Banking**: Identify at-risk customers for targeted retention strategies 🏦  
+- **Education**: Learn ANN implementation with TensorFlow 📚  
+- **Data Science**: Explore end-to-end ML workflows 🧑‍💻  
+
+
