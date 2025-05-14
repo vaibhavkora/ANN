@@ -63,7 +63,7 @@ The notebook (`ANN.ipynb`) is organized into clear steps:
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/your-username/customer-churn-prediction-ann.git
+git clone https://github.com/vaibhavkora/Artificial_Neural_Network.git
 pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
  ```
 ## 🚀 Usage
